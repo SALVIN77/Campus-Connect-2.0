@@ -22,7 +22,7 @@
 ---
 
 ## 📌 Setup Instructions  
-. Navigate to the project directory:  
+1. Navigate to the project directory:  
    ```bash
    cd CampusConnect
    ```
