@@ -1,4 +1,4 @@
-# CampusConnect - College Event Management Website  
+# Campus Connect - College Event Management Website  
 **Streamlining Event Management for College Campuses**  
 
 **CanpusConnect** is a modern web application built using the MERN stack to simplify and enhance the process of organizing, managing, and participating in college events. This platform empowers students and administrators to seamlessly coordinate events, track registrations, and foster engagement across the campus.
