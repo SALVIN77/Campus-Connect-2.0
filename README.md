@@ -22,24 +22,20 @@
 ---
 
 ## 📌 Setup Instructions  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Harshjangid015/EduVents---College-Event-Management-Website-MERN.git
-   ```
-2. Navigate to the project directory:  
+. Navigate to the project directory:  
    ```bash
    cd CampusConnect
    ```
-3. Install dependencies for both frontend and backend:  
+2. Install dependencies for both frontend and backend:  
    ```bash
    cd client && npm install  
    cd ../server && npm install  
    ```
-4. Set up a `.env` file for your backend with the required variables:  
+3. Set up a `.env` file for your backend with the required variables:  
    - `MONGO_URI`: MongoDB connection string  
    - `JWT_SECRET`: Secret key for JWT authentication  
 
-5. Run the application:  
+4. Run the application:  
    - Start the server:  
      ```bash
      cd server && npm start
@@ -48,7 +44,7 @@
      ```bash
      cd client && npm start
      ```
-6. Open your browser and visit `http://localhost:3000`.
+5. Open your browser and visit `http://localhost:3000`.
 
 ---
 
