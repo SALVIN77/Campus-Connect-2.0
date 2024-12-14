@@ -24,7 +24,7 @@
 ## 📌 Setup Instructions  
 1. Navigate to the project directory:  
    ```bash
-   cd CampusConnect
+   cd Campus Connect 2.0
    ```
 2. Install dependencies for both frontend and backend:  
    ```bash
