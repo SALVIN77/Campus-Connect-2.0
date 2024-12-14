@@ -28,7 +28,7 @@
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd EduVents
+   cd CampusConnect
    ```
 3. Install dependencies for both frontend and backend:  
    ```bash
