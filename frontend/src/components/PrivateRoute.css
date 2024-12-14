@@ -1,0 +1,27 @@
+.private-route-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .private-route-message {
+    padding: 20px;
+    background-color: #ffcccc;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .private-route-message a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .private-route-message a:hover {
+    text-decoration: underline;
+  }
+  

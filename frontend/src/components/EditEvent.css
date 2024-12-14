@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #d6dbe4;
+    color: #181616;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.882);
+    padding: 20px;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    font-size: 250%;
+    color: #080808;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #d5cfcf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+select {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Button styling */
+button {
+    background-color: #00308F;
+    color: white;
+    padding: 10px 20px;
+    border: none ;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin:5% auto;
+}
+
+button:hover {
+    background-color: #00308fca;
+    color:#ffffff;
+}
+
+/* Navigation bar preservation */
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.body-container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.image-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.image-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.image-thumbnail.selected {
+    border-color: #00308F;
+}

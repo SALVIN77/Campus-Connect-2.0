@@ -1,0 +1,120 @@
+/* Container styling */
+.event-list-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Heading styling */
+.event-list-container h2 {
+  text-align: center;
+  color:black;
+  margin-bottom: 30px;
+}
+
+/* Individual event card styling */
+.event-card {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.topnone{
+  color: black;
+}
+
+/* Image container and image styling */
+.event-image-container {
+  width: 50%; /* Set the width of the image */
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text content styling */
+.event-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-content p {
+  margin: 5px 0; /* Adjust spacing between lines */
+  color: #000000;
+}
+
+/* Event card button styling */
+.event-card button {
+  margin: 0;
+  margin-top: 10px;
+  background-color: #00308F;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-card button:hover {
+  background-color: #ffffff;
+}
+
+/* New ribbon styling */
+.new-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom-right-radius: 10px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event-content p {
+  margin: 5px 0; /* Adjust spacing between lines */
+  color: #636363;
+  font-size: 18px; /* Increase the font size (adjust this value as needed) */
+}
+
+.textdecor{
+    text-decoration: none;
+  color: inherit; /* Inherit the text color from the event-card */
+  display: block;
+}
+
+.white{
+  color: rgb(0, 0, 0);
+}
+
+h1{
+  color: black;
+}
+
+.ctz{
+  color: #ffffff;
+  }

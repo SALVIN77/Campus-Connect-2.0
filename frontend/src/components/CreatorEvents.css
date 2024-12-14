@@ -1,0 +1,199 @@
+.creator-events-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 10%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 4%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #00308F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #074799;
+  }
+  .event-list-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #e4e6ea;
+}
+
+/* Heading styling */
+.event-list-container h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* Individual event card styling */
+.event-card {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Image container and image styling */
+.event-image-container {
+  width: 50%; /* Set the width of the image */
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text content styling */
+.event-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-content p {
+  margin: 5px 0; /* Adjust spacing between lines */
+  color: #353535;
+}
+
+/* Event card button styling */
+.event-card button {
+  margin: 0;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px 15px;
+  border: none;
+  color: #00308F;
+  border: 2px solid #00308F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-card button:hover {
+  background-color: #00308F;
+  color: white;
+  ;
+}
+.white{
+  color: white;
+}
+
+
+/* Modal Overlay */
+.modal2-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal appears above other content */
+}
+
+/* Modal Content */
+.modal2-content {
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some space above the table */
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Light background for header */
+}
+
+.white {
+  color: black;
+}
+
+@media print {
+  /* Hide everything except for the heading and the table */
+  body * {
+    visibility: hidden;
+  }
+
+  .modal2-content, .modal2-content * {
+    visibility: visible;
+  }
+
+  .modal2-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+
+  button {
+    background-color: #00308F;
+    color: rgb(255, 244, 244);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin:5% auto;
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color:#074799;
+    border: 1px solid #074799;
+}
+
+  .modal-overlay {
+    display: block;
+    position: static;
+  }
+}
+
+.topnone{
+  margin-top: 0px;
+}
+

@@ -1,0 +1,96 @@
+
+.event-detail-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 20vh auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .register-button {
+    background-color: #00308F;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid #00308F;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: white;
+    color: #00308F;
+    border: 2px solid #00308F;
+  }
+  
+  /* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.register-input-container {
+  margin-bottom: 20px;
+}
+
+.submit-register-button, .close-modal-button {
+  margin: 25;
+  padding: 10px 20px;
+  border: 2px solid #00308F;
+  background-color: #00308F;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-modal-button {
+  background-color: #00308F;
+  color: white;
+  border: 2px solid #00308F;
+
+}
+
+
+
+.registerfield{
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.registered-button {
+  background-color: #28a745;
+  cursor: not-allowed;
+}
+
+.registered-button:disabled {
+  opacity: 0.7;
+}
+
+.registered-button:hover {
+  background-color: #ade8c5;
+}

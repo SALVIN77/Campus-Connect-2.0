@@ -1,0 +1,52 @@
+.image-selection {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.image-option {
+  cursor: pointer;
+}
+
+.image-thumbnail {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border: 2px solid transparent;
+}
+
+.image-thumbnail.selected {
+  border-color: #00308F; /* Highlight selected image */
+}
+
+.create-event-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-event-container h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .create-event-container input,
+  .create-event-container textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #d5cfcf;
+    border-radius: 5px;
+    width: 96%;
+    
+  }
+  
+  .create-event-container button {
+    background-color: #00308F;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
