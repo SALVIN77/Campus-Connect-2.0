@@ -1,7 +1,7 @@
-# EduVents - College Event Management Website  
+# CampusConnect - College Event Management Website  
 **Streamlining Event Management for College Campuses**  
 
-**EduVents** is a modern web application built using the MERN stack to simplify and enhance the process of organizing, managing, and participating in college events. This platform empowers students and administrators to seamlessly coordinate events, track registrations, and foster engagement across the campus.
+**CanpusConnect** is a modern web application built using the MERN stack to simplify and enhance the process of organizing, managing, and participating in college events. This platform empowers students and administrators to seamlessly coordinate events, track registrations, and foster engagement across the campus.
 
 ---
 
