@@ -9,7 +9,7 @@
 - **Event Creation**: Create and manage events with details like title, description, date, time, and venue.  
 - **User Registration**: Students can browse events, register, and track their participation history.  
 - **Admin Dashboard**: View and manage event details, track registration analytics, and oversee event success.  
-- **Responsive Design**: Accessible on desktops, tablets, and mobile devices for convenient use anytime, anywhere.  
+ 
 
 ---
 
