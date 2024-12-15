@@ -1,6 +1,6 @@
 # Campus Connect - College Event Management Website  
 **Streamlining Event Management for College Campuses**  
-
+https://github.com/user-attachments/assets/83438d82-42de-4437-97b3-e171cf6676b2
 **CampusConnect** is a modern web application built using the MERN stack to simplify and enhance the process of organizing, managing, and participating in college events. This platform empowers students and administrators to seamlessly coordinate events, track registrations, and foster engagement across the campus.
 
 ---
