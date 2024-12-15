@@ -3,6 +3,7 @@
 
 **CampusConnect** is a modern web application built using the MERN stack to simplify and enhance the process of organizing, managing, and participating in college events. This platform empowers students and administrators to seamlessly coordinate events, track registrations, and foster engagement across the campus.
 
+https://github.com/user-attachments/assets/85863d71-7312-4da0-ae92-b38074ac1d50
 ---
 
 ## 🚀 Features  
